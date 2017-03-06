@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="270dp"
+    android:layout_height="370dp"
+    android:layout_margin="50dp"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".Constant" >
+     <LinearLayout
+        android:layout_width="270dp"
+    	android:layout_height="322dp"
+    	android:orientation="vertical"
+    	android:background="@drawable/bg"
+    	>
+        <ScrollView android:layout_width="270dp" 
+	            android:layout_height="250dp" >
+		        <LinearLayout 
+		            android:layout_width="match_parent" 
+		            android:layout_height="match_parent" 
+		            android:paddingTop="25dp"
+		            android:gravity="center"
+		            android:orientation="vertical">
+		            <TextView
+		                android:id="@+id/strText" 
+		                android:layout_width="240dp" 
+		                android:layout_height="wrap_content" 
+		                android:layout_gravity="center" 
+		                android:paddingBottom="2dp" 
+		                android:textColor="#767676" 
+		                android:textSize="16sp"/>
+		        </LinearLayout>
+		     </ScrollView>
+		     <LinearLayout
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_gravity="center"
+		            android:layout_marginTop="10dp"
+					android:layout_marginBottom="15dp" 
+				    android:orientation="vertical" >
+			     <Button
+		                android:id="@+id/btnDialogOk"
+			            android:layout_width="244dp"
+			            android:layout_height="46dp"
+			            android:textSize="16sp"
+					    android:textColor="#FFFFFF"
+					    android:text="@string/ok"
+			            android:background="@drawable/bg">
+				</Button>
+			</LinearLayout>
+		</LinearLayout>
+</LinearLayout>

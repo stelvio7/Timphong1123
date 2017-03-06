@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">Timphong</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="action_settings">Section 3</string>
+
+    <string name="ok">확인</string>
+    <string name="cancel">취소</string>
+
+    <!-- 유저가입 -->
+    <string name="regi_name">Nhập tên vào</string>
+    <string name="regi_email">Nhập địa chỉ email sẽ dùng khi đăng nhập.</string>
+    <string name="regi_emailconfirm">Nhập lại email</string>
+    <string name="regi_passwd">Nhập mật khẩu (sử dụng kết hợp chữ với số 6-15 cái)</string>
+    <string name="regi_phonenum">Điện thoại liên hệ</string>
+    <string name="regi_image">Đăng ký</string>
+
+    <string name="check_empty">항목이 비어있습니다.</string>
+    <string name="check_email">이메일 형식이 아닙니다..</string>
+    <string name="check_name">이름 형식이 아닙니다.</string>
+    <string name="check_passwd">비밀번호 형식이 아닙니다.</string>
+    <string name="check_phone">전화번호 형식이 아닙니다.</string>
+    <string name="check_number">번호 형식이 아닙니다.</string>
+
+
+    <!-- 중개인가입 -->
+    <string name="regic_company_name">Nhập tên công ty môi giới bất động sản.</string>
+    <string name="regic_ceo_name">Nhập tên đại diện công ty.</string>
+    <string name="regic_saup_num">Mã số doanh nghiệp.</string>
+    <string name="regic_saup_adress">Địa chỉ công ty.</string>
+    <string name="regic_saup_phonenum">Số điện thoại bàn.</string>
+    <string name="regic_saup_email">Địa chỉ email của công ty</string>
+
+    <string name="regic_dam_name">Nhập tên người phụ trách</string>
+    <string name="regic_dam_cellphonenum">Số điện thoại di động.</string>
+    <string name="regic_dam_phonenum">Số điện thoại bàn.</string>
+    <string name="regic_dam_email">Nhập địa chỉ email sẽ dùng khi đăng nhập.</string>
+    <string name="regic_dam_passwd">Nhập mật khẩu (sử dụng kết hợp chữ với số 6-15 cái)</string>
+    <string name="regic_dam_passwdconfirm">Nhập lại mật khẩu </string>
+    <string name="regic_dam_adress">Địa chỉ người phụ trách</string>
+    <string name="regic_dam_photo">Thêm ảnh người phụ trách</string>
+
+    <!--로그인-->
+    <string name="login_email">Email đăng ký hội viên</string>
+    <string name="login_passwd">Nhập mật khẩu</string>
+
+    <string name="login_search_name">Tên đăng nhập</string>
+
+    <string name="login_search_email">Email đăng ký hội viên</string>
+    <string name="login_search_send_email">Lấy lại mật khẩu bằng email</string>
+
+    <!--방등록-->
+    <string name="room_regi_explain">Vui lòng giải thích thông tin cụ thể về căn phòng</string>
+
+    <string name="room_regi_title">Tiêu đề</string>
+    <string name="room_regi_type">Loại</string>
+    <string name="room_regi_num">Số phòng</string>
+    <string name="room_regi_kichen">Nhà bếp</string>
+    <string name="room_regi_toilet">Nhà vệ sinh</string>
+    <string name="room_regi_toiletnum">Nhà vệ sinh</string>
+    <string name="room_regi_deposit">Đặt cọc</string>
+    <string name="room_regi_price">Giá</string>
+
+    <string name="room_regi_floor">Số tầng nhà cửa / toàn nhà</string>
+    <string name="room_regi_roomnum">Diện tích</string>
+    <string name="room_regi_aircon">Máy lạnh</string>
+    <string name="room_regi_shouse">Máy giặt</string>
+    <string name="room_regi_cleaner">Tủ giày</string>
+    <string name="room_regi_refusrator">Tủ lạnh</string>
+    <string name="room_regi_bed">Giường</string>
+    <string name="room_regi_gasrange">Bếp ga</string>
+    <string name="room_regi_desk">Bàn</string>
+    <string name="room_regi_induction">Bếp điện</string>
+    <string name="room_regi_cloth">Tủ áo</string>
+    <string name="room_regi_elecrange">Lò vi sóng</string>
+    <string name="room_regi_television">TV</string>
+
+    <string name="room_regi_moveday">loại thiết bị sưởi</string>
+    <string name="room_regi_managefee">Chi phí quảng lý - VNĐ</string>
+    <string name="room_regi_electronicfee">Tiền điện</string>
+    <string name="room_regi_cleanfee">Tiền dọn vệ sinh phòng</string>
+    <string name="room_regi_waterfee">Tiền nước</string>
+    <string name="room_regi_gasfee">Tiền ga</string>
+    <string name="room_regi_internet">Tiền internet</string>
+    <string name="room_regi_linetv">Tiền truyền hình cáp</string>
+    <string name="room_regi_guard"></string>
+    <string name="room_regi_parking">Đỗ xe</string>
+    <string name="room_regi_animal">Nuôi động vật</string>
+
+
+    <string-array name="number">
+        <item >1</item>
+        <item >2</item>
+        <item >3</item>
+        <item >4</item>
+        <item >5</item>
+    </string-array>
+
+
+    <string name="task_progressing">검색 중...</string>
+    <string name="task_load_progressing">로딩 중...</string>
+    <string name="task_cancelled">취소되었습니다.</string>
+    <string name="str_network_error">Error</string>
+</resources>
